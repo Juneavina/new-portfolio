@@ -31,20 +31,20 @@ nav {
   }
   
   .navbar {
-position: sticky;
+position: fixed;
     top: 0;
-    width: 100%;
+    width: 97vw;
   }
 
-  .sticky {
-    position: fixed;
+  /* .sticky {
+    position: sticky;
     top: 0;
-  }
+  } */
 
 
   @media screen and (max-width: 767px) {
     .navbar {
-      width: 91vw;
+      width: 89vw;
       overflow: visible;
     }
 

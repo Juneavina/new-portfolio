@@ -3,22 +3,15 @@ import navIcon1 from '../assets/images/github.svg';
 import navIcon2 from '../assets/images/linkedin.svg';
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import classNames from "classnames";
-import UseSticky from "./UseSticky";
-
 
 
 
 function Navigation() {
-    const { sticky, stickyRef } = UseSticky();
-
-
 
   return (
     <Navbar
-    ref={stickyRef} 
-    className={classNames({ sticky: sticky })}
-      variant="dark"
+    className='navbar'  
+    variant="dark"
       expand={true}>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
