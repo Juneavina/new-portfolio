@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+  background-color: #101519;
+  background-image: url("./assets/images/flower.jpg");
+  background-size: cover;
 }
 
 .App-logo {
@@ -36,3 +40,21 @@
     transform: rotate(360deg);
   }
 }
+
+/* @media screen and (max-width: 767px) {
+  h1 {
+    font-size: 50px;
+  }
+  .about-paragraph {
+    font-size: 20px;
+    width: 50vw;
+  }
+} */
+  
+/* @media screen and (min-width: 1024px) {
+  .App {
+    font-size: 20px;
+    width: 100%;
+  }
+}
+   */

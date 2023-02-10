@@ -1,0 +1,74 @@
+
+#about {
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+
+.about-h1 {
+
+    text-shadow:
+
+      0 0 .2rem #fff,
+      0 0 30px #0fa,
+      0 0 1px #0fa,
+      0 0 1px #0fa;
+    
+        border: 0.2rem solid #fff;
+        border-radius: 2rem;
+        padding: 0.4em;
+        box-shadow: 0 0 .1rem #fff,
+                  0 0 .1rem #fff,
+                  0 0 1rem #bc13fe,
+                  0 0 0.8rem #bc13fe,
+                  0 0 1.8rem #bc13fe,
+                  inset 0 0 1.3rem #bc13fe;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 60px;
+
+}
+
+.about-paragraph {
+    font-size: 1.5rem;
+    font-family: 'Vibur', cursive;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 700px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 50px;
+    box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 1rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 1.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+              text-shadow:
+
+              0 0 .2rem #fff,
+              0 0 30px #0fa,
+              0 0 1px #0fa,
+              0 0 1px #0fa;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 50px;
+    }
+    .about-paragraph {
+        font-size: 20px;
+        width: 70vw;
+        height: 600px;
+        overflow: hidden;
+    }
+    #about {
+        overflow: hidden;
+        height: auto;
+    }
+}
