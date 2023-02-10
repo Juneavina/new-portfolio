@@ -2,8 +2,7 @@ import React from 'react';
 import './Footer.css';
 import navIcon1 from '../assets/images/github.svg';
 import navIcon2 from '../assets/images/linkedin.svg';
-import mail from '../assets/images/mail.png';
-import { Navbar, Nav } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 
 const Footer = () => {
   
