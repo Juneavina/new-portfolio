@@ -76,11 +76,14 @@
     .pawsitivity {
         height: auto;
         overflow: hidden;
-        width: 75vw;
+        width: 68vw;
     }
     .pawsitivity-img {
         width: 90vw;
         height: auto;
         padding: 10px;
+    }
+    .projects-h1 {
+        width: 75vw;
     }
 }
