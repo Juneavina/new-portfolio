@@ -52,3 +52,10 @@
               0 0 1.8rem #bc13fe,
               inset 0 0 1.3rem #bc13fe;
   }
+
+  /* .landing-page__content {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+  } */

@@ -87,3 +87,25 @@
         width: 75vw;
     }
 }
+
+.phoneScreenshot {
+  width: auto;
+  height: 600px;
+  margin: 10px;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  object-fit: cover;
+}
+
+.btn{
+  font-size: 1rem;
+}
+
+.carousel {
+  display: block;
+}
+
+.paws {
+  margin-top: 30px;
+}

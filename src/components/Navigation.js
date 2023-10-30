@@ -3,6 +3,7 @@ import navIcon1 from '../assets/images/github.svg';
 import navIcon2 from '../assets/images/linkedin.svg';
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 
@@ -12,8 +13,9 @@ function Navigation() {
     <Navbar
     className='navbar'  
     variant="dark"
-      expand={true}>
-      <Navbar.Collapse id="basic-navbar-nav">
+      expand="md">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav" className="center-navbar">
         <Nav className="mr-auto">
           <Nav.Link className="nav-link-custom" href="#about">About</Nav.Link>
           <Nav.Link className="nav-link-custom" href="#skills">Skills</Nav.Link>

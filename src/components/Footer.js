@@ -11,11 +11,11 @@ const Footer = () => {
 return (
 <footer id="footer">
   <div className='footer-container'>
-<Nav.Link className="nav-link-custom" href="https://github.com/Juneavina">
+<Nav.Link className="nav-link-custom inline-block" href="https://github.com/Juneavina">
 
             <img src={navIcon1} alt="GitHub" style={{ width: '20px', height: '20px' }} />
           </Nav.Link>
-          <Nav.Link href="http://linkedin.com/in/june-avina">
+          <Nav.Link href="http://linkedin.com/in/june-avina" className="nav-link-custom inline-block">
           <img src={navIcon2} alt="LinkedIn" style={{ width: '20px', height: '20px' }} />
           </Nav.Link>
           </div>

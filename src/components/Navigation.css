@@ -33,7 +33,7 @@ nav {
   .navbar {
 position: fixed;
     top: 0;
-    width: 97vw;
+    width: 99vw;
   }
 
   /* .sticky {
@@ -54,3 +54,7 @@ position: fixed;
     }
     
   }
+
+  .center-navbar {
+    justify-content: center !important;
+}

@@ -37,7 +37,7 @@ const Skills = () => {
       <div className='skills-row'>
         <div className='skill-item'>
           <img className='skills-img' src={reactImg} alt="react-icon" />
-          <p className='p-row'>REACT</p>
+          <p className='p-row'>REACT/REACT NATIVE</p>
         </div>
         <div className='skill-item'>
           <img className='skills-img' src={expressJS} alt="express-icon" />

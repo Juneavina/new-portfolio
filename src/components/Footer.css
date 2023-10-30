@@ -32,3 +32,8 @@
     text-align: center;
     margin-right: 23px;
   }
+
+  .inline-block {
+    display: inline-block;
+    margin: 20px 10px;
+}
